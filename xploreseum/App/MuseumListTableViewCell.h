@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MuseumListTableViewCell.h
 //  xploreseum
 //
 //  Created by PETRONAS ICT SDN BHD on 05/11/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MuseumListTableViewCell : UITableViewCell
 
 @end
-

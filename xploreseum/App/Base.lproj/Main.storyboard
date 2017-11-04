@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpO-ns-pSL" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="470"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.69230973640000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="HdJ-WD-gF3"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="rTf-zJ-G4n"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inU-js-IwR">
+                                <rect key="frame" x="16" y="518" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4AM-uL-GUF"/>
+                                    <constraint firstAttribute="width" constant="62" id="Llj-MJ-hYu"/>
+                                </constraints>
+                                <state key="normal" title="favourite"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNX-sV-ni7">
+                                <rect key="frame" x="122" y="518" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="D1d-rJ-J6H"/>
+                                    <constraint firstAttribute="height" constant="30" id="Zr6-YR-BOQ"/>
+                                </constraints>
+                                <state key="normal" title="navigate"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgN-vf-Hkn">
+                                <rect key="frame" x="245" y="518" width="59" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="ELx-7h-Cpq"/>
+                                    <constraint firstAttribute="height" constant="30" id="Pur-Rm-MJ4"/>
+                                </constraints>
+                                <state key="normal" title="checkin"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IpO-ns-pSL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="14k-5E-Cqc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jNX-sV-ni7" secondAttribute="bottom" constant="20" id="20K-hZ-V23"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dgN-vf-Hkn" secondAttribute="trailing" constant="16" id="5Rm-kK-NEH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IpO-ns-pSL" secondAttribute="bottom" constant="98" id="HXv-Tt-gBH"/>
+                            <constraint firstItem="inU-js-IwR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MXg-oz-HBo"/>
+                            <constraint firstItem="IpO-ns-pSL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Wem-mG-LjH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dgN-vf-Hkn" secondAttribute="bottom" constant="20" id="jdH-xy-peI"/>
+                            <constraint firstItem="IpO-ns-pSL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qLS-f4-7Xf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="inU-js-IwR" secondAttribute="bottom" constant="20" id="r83-th-PJP"/>
+                            <constraint firstItem="jNX-sV-ni7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v03-9o-8LL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="carouselView" destination="IpO-ns-pSL" id="OG6-yQ-BNw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="133.09859154929578"/>
+        </scene>
+    </scenes>
+</document>

@@ -13,6 +13,18 @@
 		0C06C2AA1FAE1C7500FAC471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2A91FAE1C7500FAC471 /* Assets.xcassets */; };
 		0C06C2AD1FAE1C7500FAC471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2AB1FAE1C7500FAC471 /* LaunchScreen.storyboard */; };
 		0C06C2B01FAE1C7500FAC471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C2AF1FAE1C7500FAC471 /* main.m */; };
+		0C06C2B91FAE29EB00FAC471 /* MuseumListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06C2B71FAE29EB00FAC471 /* MuseumListTableViewCell.m */; };
+		0C06C2BA1FAE29EB00FAC471 /* MuseumListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2B81FAE29EB00FAC471 /* MuseumListTableViewCell.xib */; };
+		0C06C2BD1FAE2D5600FAC471 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C06C2BC1FAE2D5600FAC471 /* libsqlite3.tbd */; };
+		0C06C2BE1FAE2D5C00FAC471 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C06C2BB1FAE2D4B00FAC471 /* QuartzCore.framework */; };
+		0C06C2C21FAE2E4000FAC471 /* file-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C11FAE2E4000FAC471 /* file-1.png */; };
+		0C06C2CA1FAE3DF500FAC471 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C41FAE3DF400FAC471 /* img5.jpg */; };
+		0C06C2CB1FAE3DF500FAC471 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C51FAE3DF400FAC471 /* img1.jpg */; };
+		0C06C2CC1FAE3DF500FAC471 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C61FAE3DF400FAC471 /* img4.jpg */; };
+		0C06C2CD1FAE3DF500FAC471 /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C71FAE3DF500FAC471 /* img6.jpg */; };
+		0C06C2CE1FAE3DF500FAC471 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C81FAE3DF500FAC471 /* img2.jpg */; };
+		0C06C2CF1FAE3DF500FAC471 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C06C2C91FAE3DF500FAC471 /* img3.jpg */; };
+		AD6262C2F02B3E8B5E9DC4D4 /* libPods-xploreseum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 923E4789A7EFECADFE043850 /* libPods-xploreseum.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,21 @@
 		0C06C2AC1FAE1C7500FAC471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C06C2AE1FAE1C7500FAC471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C06C2AF1FAE1C7500FAC471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C06C2B61FAE29EB00FAC471 /* MuseumListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuseumListTableViewCell.h; sourceTree = "<group>"; };
+		0C06C2B71FAE29EB00FAC471 /* MuseumListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuseumListTableViewCell.m; sourceTree = "<group>"; };
+		0C06C2B81FAE29EB00FAC471 /* MuseumListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MuseumListTableViewCell.xib; sourceTree = "<group>"; };
+		0C06C2BB1FAE2D4B00FAC471 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C06C2BC1FAE2D5600FAC471 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0C06C2C11FAE2E4000FAC471 /* file-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-1.png"; sourceTree = "<group>"; };
+		0C06C2C41FAE3DF400FAC471 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		0C06C2C51FAE3DF400FAC471 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		0C06C2C61FAE3DF400FAC471 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		0C06C2C71FAE3DF500FAC471 /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
+		0C06C2C81FAE3DF500FAC471 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		0C06C2C91FAE3DF500FAC471 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		923E4789A7EFECADFE043850 /* libPods-xploreseum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xploreseum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD320A101BB350E2A9491E2E /* Pods-xploreseum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xploreseum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xploreseum/Pods-xploreseum.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C56E2967E3456ADF948446 /* Pods-xploreseum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xploreseum.release.xcconfig"; path = "Pods/Target Support Files/Pods-xploreseum/Pods-xploreseum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C06C2BE1FAE2D5C00FAC471 /* QuartzCore.framework in Frameworks */,
+				0C06C2BD1FAE2D5600FAC471 /* libsqlite3.tbd in Frameworks */,
+				AD6262C2F02B3E8B5E9DC4D4 /* libPods-xploreseum.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,8 @@
 			children = (
 				0C06C29F1FAE1C7500FAC471 /* xploreseum */,
 				0C06C29E1FAE1C7500FAC471 /* Products */,
+				D545DB073D20276EF40E5274 /* Pods */,
+				1256BB3DC39DA79BBEC85F2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +90,70 @@
 		0C06C29F1FAE1C7500FAC471 /* xploreseum */ = {
 			isa = PBXGroup;
 			children = (
-				0C06C2A01FAE1C7500FAC471 /* AppDelegate.h */,
-				0C06C2A11FAE1C7500FAC471 /* AppDelegate.m */,
-				0C06C2A31FAE1C7500FAC471 /* ViewController.h */,
-				0C06C2A41FAE1C7500FAC471 /* ViewController.m */,
-				0C06C2A61FAE1C7500FAC471 /* Main.storyboard */,
+				0C06C2BF1FAE2D7300FAC471 /* App */,
 				0C06C2A91FAE1C7500FAC471 /* Assets.xcassets */,
 				0C06C2AB1FAE1C7500FAC471 /* LaunchScreen.storyboard */,
 				0C06C2AE1FAE1C7500FAC471 /* Info.plist */,
 				0C06C2AF1FAE1C7500FAC471 /* main.m */,
 			);
 			path = xploreseum;
+			sourceTree = "<group>";
+		};
+		0C06C2BF1FAE2D7300FAC471 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C2A01FAE1C7500FAC471 /* AppDelegate.h */,
+				0C06C2A11FAE1C7500FAC471 /* AppDelegate.m */,
+				0C06C2A31FAE1C7500FAC471 /* ViewController.h */,
+				0C06C2A41FAE1C7500FAC471 /* ViewController.m */,
+				0C06C2A61FAE1C7500FAC471 /* Main.storyboard */,
+				0C06C2B61FAE29EB00FAC471 /* MuseumListTableViewCell.h */,
+				0C06C2B71FAE29EB00FAC471 /* MuseumListTableViewCell.m */,
+				0C06C2B81FAE29EB00FAC471 /* MuseumListTableViewCell.xib */,
+				0C06C2C01FAE2E2900FAC471 /* resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0C06C2C01FAE2E2900FAC471 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C2C31FAE3DEA00FAC471 /* imagesample */,
+				0C06C2C11FAE2E4000FAC471 /* file-1.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0C06C2C31FAE3DEA00FAC471 /* imagesample */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C2C51FAE3DF400FAC471 /* img1.jpg */,
+				0C06C2C81FAE3DF500FAC471 /* img2.jpg */,
+				0C06C2C91FAE3DF500FAC471 /* img3.jpg */,
+				0C06C2C61FAE3DF400FAC471 /* img4.jpg */,
+				0C06C2C41FAE3DF400FAC471 /* img5.jpg */,
+				0C06C2C71FAE3DF500FAC471 /* img6.jpg */,
+			);
+			path = imagesample;
+			sourceTree = "<group>";
+		};
+		1256BB3DC39DA79BBEC85F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C06C2BC1FAE2D5600FAC471 /* libsqlite3.tbd */,
+				0C06C2BB1FAE2D4B00FAC471 /* QuartzCore.framework */,
+				923E4789A7EFECADFE043850 /* libPods-xploreseum.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D545DB073D20276EF40E5274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD320A101BB350E2A9491E2E /* Pods-xploreseum.debug.xcconfig */,
+				F9C56E2967E3456ADF948446 /* Pods-xploreseum.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C06C2B31FAE1C7500FAC471 /* Build configuration list for PBXNativeTarget "xploreseum" */;
 			buildPhases = (
+				E73305B541C3BB73E8C3FFF7 /* [CP] Check Pods Manifest.lock */,
 				0C06C2991FAE1C7500FAC471 /* Sources */,
 				0C06C29A1FAE1C7500FAC471 /* Frameworks */,
 				0C06C29B1FAE1C7500FAC471 /* Resources */,
+				24F946A37BA74A8FA7B2C7ED /* [CP] Embed Pods Frameworks */,
+				2DBF3BCA38B939044C258DBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +217,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C06C2CC1FAE3DF500FAC471 /* img4.jpg in Resources */,
 				0C06C2AD1FAE1C7500FAC471 /* LaunchScreen.storyboard in Resources */,
+				0C06C2CA1FAE3DF500FAC471 /* img5.jpg in Resources */,
+				0C06C2CB1FAE3DF500FAC471 /* img1.jpg in Resources */,
+				0C06C2CD1FAE3DF500FAC471 /* img6.jpg in Resources */,
+				0C06C2CF1FAE3DF500FAC471 /* img3.jpg in Resources */,
 				0C06C2AA1FAE1C7500FAC471 /* Assets.xcassets in Resources */,
+				0C06C2CE1FAE3DF500FAC471 /* img2.jpg in Resources */,
+				0C06C2C21FAE2E4000FAC471 /* file-1.png in Resources */,
 				0C06C2A81FAE1C7500FAC471 /* Main.storyboard in Resources */,
+				0C06C2BA1FAE29EB00FAC471 /* MuseumListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F946A37BA74A8FA7B2C7ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xploreseum/Pods-xploreseum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DBF3BCA38B939044C258DBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xploreseum/Pods-xploreseum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73305B541C3BB73E8C3FFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xploreseum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C06C2991FAE1C7500FAC471 /* Sources */ = {
@@ -145,6 +292,7 @@
 				0C06C2A51FAE1C7500FAC471 /* ViewController.m in Sources */,
 				0C06C2B01FAE1C7500FAC471 /* main.m in Sources */,
 				0C06C2A21FAE1C7500FAC471 /* AppDelegate.m in Sources */,
+				0C06C2B91FAE29EB00FAC471 /* MuseumListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +424,7 @@
 		};
 		0C06C2B41FAE1C7500FAC471 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD320A101BB350E2A9491E2E /* Pods-xploreseum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +439,7 @@
 		};
 		0C06C2B51FAE1C7500FAC471 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C56E2967E3456ADF948446 /* Pods-xploreseum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
